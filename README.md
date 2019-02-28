@@ -1,10 +1,31 @@
+## Setup
+use pipenv for mangaging packages
+
+**install pipenv with homebrew**
+```
+brew install pipenv
+```
+
+If you don't have homebrew [see documentation](https://pipenv.readthedocs.io/en/latest/install/) for installation instructions.
 
 
-### usage
-`python3 create_model.py`
+**install dependencies**
+```
+pipenv install
+```
 
-### output
-A trains and validates a model on tweet data stored in data directory
+**activate virtual env**
+```
+pipenv shell
+```
+
+## Usage
+```
+python3 create_model.py
+```
+
+## Output
+Trains and validates a model on tweet data stored in data directory
 
 ```
 Epoch 1/10
