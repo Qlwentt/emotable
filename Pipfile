@@ -9,6 +9,7 @@ verify_ssl = true
 tweepy = "*"
 pandas = "*"
 keras  = "*"
+pyyaml = "*"
 
 [requires]
 python_version = "3.7"
