@@ -9,7 +9,7 @@ brew install pipenv
 If you don't have homebrew [see documentation](https://pipenv.readthedocs.io/en/latest/install/) for installation instructions.
 
 
-**install dependencies**
+**install dependencies from pipfile**
 ```
 pipenv install
 ```
@@ -52,3 +52,5 @@ Epoch 10/10
 487/487 [==============================] - 1s 2ms/step
 0.8952772075145886
 ```
+
+Note: if you are missing any dependencies when you try to run `create_model.py`, try `pyenv install [dependency]`
