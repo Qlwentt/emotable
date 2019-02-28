@@ -10,6 +10,7 @@ tweepy = "*"
 pandas = "*"
 keras  = "*"
 pyyaml = "*"
+tensorflow = "*"
 
 [requires]
 python_version = "3.7"
